@@ -200,8 +200,6 @@ def subnet(ip_list):
             first_ip = bin_to_dec(int(first_ip_bin))
             last_ip = bin_to_dec(int(last_ip_bin))
             check_first = False
-            print("First ip bin = "+first_ip_bin+", to dec = "+str(first_ip))
-            print("Last ip bin = "+last_ip_bin+", to dec = "+str(last_ip))
             #--- Rete
             print(f" {str(i+1)} ",end="")
             if (i+1)<100 :  # if number is less than 100 add a space
